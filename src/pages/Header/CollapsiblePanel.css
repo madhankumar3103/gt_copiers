@@ -1,0 +1,32 @@
+/* CollapsiblePanel.css */
+.collapsible-panel {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  .panel-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .panel-header h3 {
+    margin: 0;
+  }
+  
+  .icon {
+    font-size: 1.2rem;
+  }
+  
+  .icon.collapsed {
+    transform: rotate(-90deg);
+  }
+  
+  .panel-content {
+    padding: 10px;
+  }
+  
